@@ -30,3 +30,9 @@ class Car {
 
 const car = new Car(5);
 console.log('car.position:', car.position); 
+
+// enum
+enum Color { Red, Green, Blue = 'blue' };
+console.log('Color.Red:', Color.Red);
+console.log('Color.Green:', Color.Green);
+console.log('Color.Blue:', Color.Blue);
