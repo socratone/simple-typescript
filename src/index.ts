@@ -36,3 +36,10 @@ enum Color { Red, Green, Blue = 'blue' };
 console.log('Color.Red:', Color.Red);
 console.log('Color.Green:', Color.Green);
 console.log('Color.Blue:', Color.Blue);
+
+// angle brackets
+let vari; // 타입이 any로 설정된다.
+vari = 'a';
+let str = (<string>vari); // str은 타입이 string이 된다.
+// 또는 let str = (vari as string);
+let any = vari; // any는 타입이 any다.
