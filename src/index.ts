@@ -7,8 +7,8 @@ console.log('addOne(4):', addOne(4));
 
 // 인터페이스
 interface Human {
-  name: string;
   age: number;
+  name: string;
 }
 
 function sayHi(person: Human): string {
